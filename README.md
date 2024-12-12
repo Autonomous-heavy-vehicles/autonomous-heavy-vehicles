@@ -1,4 +1,4 @@
-## Hi there 👋
+## The website details will be available soon
 
 <!--
 **Autonomous-heavy-vehicles/autonomous-heavy-vehicles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
