@@ -114,7 +114,7 @@ body {
 
 /* Speakers Section */
 .speakers {
-    padding: 40px 20px;
+    padding: 250px 20px;
     text-align: center;
     background-color: #f4f4f4; /* Light gray background */
 }
@@ -133,8 +133,8 @@ body {
 }
 
 .speaker img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 2px solid #003366;
     object-fit: cover;
