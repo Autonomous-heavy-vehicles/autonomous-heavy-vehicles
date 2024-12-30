@@ -126,15 +126,28 @@ body {
     margin-bottom: 20px;
 }
 
-.Speakers {
+/* Box Styling */
+.box {
     display: inline-block;
-    margin: 20px;
-    text-align: center;
-    width: 250px; /* Optional: Fix width for consistent layout */
-    vertical-align: top; /* Align multiple speakers neatly */
+    background-color: white;
+    border: 1px solid #ddd; /* Light border for box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 15px;
+    width: 500px; /* Wider box to accommodate image and text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Align content to the left */
 }
 
-.Speakers img {
+/* Flexbox Layout for Content */
+.content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between image and text */
+}
+
+
+.content img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
