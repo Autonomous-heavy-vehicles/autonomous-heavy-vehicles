@@ -1,9 +1,27 @@
+# Basic website information
 title: "Workshop on Autonomous Heavy Vehicles"
-description: "A workshop focusing on autonomous off-road vehicle technologies."
-baseurl: "" # Leave blank unless hosting in a subdirectory
-url: "https://fatemeh-rastgar.github.io/autonomous-heavy-vehicles.github.io/"
+description: "A workshop focused on perception, navigation, and human-vehicle collaboration for autonomous off-road vehicles."
+baseurl: "" # Keep this blank unless your site is in a subdirectory
+url: "https://your-username.github.io/your-repository-name"
+
+# Theme
 theme: minima
 
+# Navigation links (optional, for themes that support navigation menus)
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "#about"
+  - title: "Call for Papers"
+    url: "#call-for-papers"
+  - title: "Speakers"
+    url: "#speakers"
+  - title: "Contact"
+    url: "#contact"
 
+# Social Links (optional)
+social_links:
+  twitter: "https://twitter.com/your-account"
+  linkedin: "https://linkedin.com/in/your-account"
 
-<link rel="stylesheet" href="assets/style.css">

@@ -4,69 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop on Autonomous Heavy Vehicles</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css"> <!-- Link to the CSS file -->
 </head>
 <body>
-    <!-- Top Bar -->
-    <header class="top-bar">
+    <!-- Header section -->
+    <div class="header">
         <h1>Workshop on Autonomous Heavy Vehicles</h1>
         <p>October 1, 2023 | Tokyo, Japan</p>
-    </header>
+        <button onclick="scrollToContent()">Read More</button>
+    </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <a href="#about">About</a>
-        <a href="#call-for-papers">Call for Papers</a>
-        <a href="#speakers">Speakers</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <!-- Sections -->
-    <section id="about">
+    <!-- Content section -->
+    <div id="content" class="content">
         <h2>About the Workshop</h2>
-        <p>The workshop focuses on addressing challenges in autonomous off-road vehicle technologies...</p>
-    </section>
+        <p>
+            This workshop focuses on addressing challenges in autonomous off-road vehicle technologies,
+            including perception, navigation, and human-vehicle collaboration.
+        </p>
+    </div>
 
-    <section id="call-for-papers">
-        <h2>Call for Papers</h2>
-        <p>Submission themes include perception systems, navigation, and human-vehicle collaboration...</p>
-        <ul>
-            <li><strong>Submission Deadline:</strong> August 15, 2023</li>
-        </ul>
-    </section>
-
-    <section id="speakers">
-        <h2>Speakers</h2>
-        <ul>
-            <li>Michael Milford, Queensland University of Technology, Australia</li>
-            <li>Reza Ghabcheloo, Tampere University, Finland</li>
-        </ul>
-    </section>
-
-    <section id="schedule">
-        <h2>Schedule</h2>
-        <table>
-            <tr>
-                <th>Time</th>
-                <th>Session</th>
-                <th>Speaker</th>
-            </tr>
-            <tr>
-                <td>9:00 AM</td>
-                <td>Opening Remarks</td>
-                <td>Organizer</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>For inquiries, contact:</p>
-        <ul>
-            <li>Fatemeh Rastgar (email@example.com)</li>
-        </ul>
-    </section>
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        function scrollToContent() {
+            const content = document.getElementById("content");
+            content.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
 </body>
 </html>
 
