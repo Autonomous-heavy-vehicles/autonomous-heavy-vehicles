@@ -2,3 +2,5 @@ theme: minima
 title: Autonomous Heavy Vehicles Workshop
 description: Official workshop website.
 
+
+<link rel="stylesheet" href="assets/style.css">
