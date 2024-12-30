@@ -1,6 +1,9 @@
+title: "Workshop on Autonomous Heavy Vehicles"
+description: "A workshop focusing on autonomous off-road vehicle technologies."
+baseurl: "" # Leave blank unless hosting in a subdirectory
+url: "https://fatemeh-rastgar.github.io/autonomous-heavy-vehicles.github.io/"
 theme: minima
-title: Autonomous Heavy Vehicles Workshop
-description: Official workshop website.
+
 
 
 <link rel="stylesheet" href="assets/style.css">
