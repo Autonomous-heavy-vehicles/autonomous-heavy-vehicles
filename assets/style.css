@@ -140,12 +140,12 @@ body {
     object-fit: cover;
 }
 
-.speaker p {
+.details p {
     margin: 5px 0;
     font-size: 1em;
 }
 
-.speaker .abstract {
+.details .abstract {
     margin-top: 10px;
     font-size: 0.9em;
     color: #555; /* Subtle gray for abstracts */
