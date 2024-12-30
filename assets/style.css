@@ -8,7 +8,7 @@ body {
 /* Header section */
 .header {
     background-color: #9acbbc; /* Blue color */
-    color: white;
+    color: black;
     text-align: center;
     padding: 100px 20px; /* Padding inside the header */
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .header button {
-    background-color: white;
+    background-color: black;
     color: #9acbbc;
     border: none;
     padding: 10px 20px;
@@ -60,7 +60,7 @@ body {
 /* Navigation Bar */
 .navbar {
     background-color: #9acbbc; /* Same color as the header for consistency */
-    color: white;
+    color: black;
     display: flex;
     justify-content: right;
     padding: 10px 0;
@@ -111,4 +111,45 @@ body {
     margin: 5px 0;
     font-size: 1em;
 }
+
+/* Speakers Section */
+.speakers {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+.speakers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.speaker {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 250px; /* Optional: Fix width for consistent layout */
+    vertical-align: top; /* Align multiple speakers neatly */
+}
+
+.speaker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #003366;
+    object-fit: cover;
+}
+
+.speaker p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.speaker .abstract {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555; /* Subtle gray for abstracts */
+    text-align: justify; /* Align abstracts for readability */
+}
+
 
