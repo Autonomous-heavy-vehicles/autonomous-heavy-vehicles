@@ -10,16 +10,16 @@ body {
     background-color: #003366; /* Blue color */
     color: white;
     text-align: center;
-    padding: 50px 20px; /* Padding inside the header */
+    padding: 100px 20px; /* Padding inside the header */
 }
 
 .header h1 {
-    font-size: 2.5em;
+    font-size: 4.5em;
     margin: 0 0 10px;
 }
 
 .header p {
-    font-size: 1.2em;
+    font-size: 2.2em;
     margin: 10px 0 20px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .header button:hover {
-    background-color: #e6e6e6;
+    background-color: #6fc3ac;
 }
 
 /* Content section */
