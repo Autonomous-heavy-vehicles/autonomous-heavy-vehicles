@@ -242,3 +242,63 @@ body {
     color: #666;
     margin-top: 5px;
 }
+
+/* Call for Papers Section */
+.call-for-papers {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    font-family: Arial, sans-serif;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.call-for-papers h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue for header */
+    margin-bottom: 20px;
+}
+
+.call-for-papers p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Timeline Layout */
+.timeline {
+    display: table; /* Table layout for rows and columns */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timeline-row {
+    display: table-row; /* Define each row */
+    border-bottom: 1px solid #ddd; /* Add line between rows */
+}
+
+.timeline-row:last-child {
+    border-bottom: none; /* Remove line for the last row */
+}
+
+.timeline-row .event,
+.timeline-row .date {
+    display: table-cell; /* Define each column */
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #333;
+}
+
+.timeline-row .event {
+    text-align: left; /* Align text to the left for events */
+    font-weight: bold; /* Make event titles bold */
+}
+
+.timeline-row .date {
+    text-align: right; /* Align dates to the right */
+    color: #555; /* Subtle gray for dates */
+}
+
