@@ -50,10 +50,15 @@ body {
     margin-bottom: 20px;
 }
 
-.Overview p {
+.Overview {
     display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.Overview p {
     font-size: 1.2em;
-    max-width: 800px;
     margin: 0 auto 20px;
     
 }
@@ -183,12 +188,12 @@ body {
 /* Program Section */
 .program {
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: #ae5a5a;
+    text-align: center;
     font-family: Arial, sans-serif;
 }
 
 .program h2 {
-    text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
 }
