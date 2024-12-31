@@ -39,28 +39,6 @@ body {
 }
 
 
-/* Content section */
-.overview {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #b8ffe8; /* Light gray background */
-    margin: 40px auto; /* Center the section and add spacing */
-}
-
-.overview h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #003366; /* Consistent heading color */
-}
-
-.overview p {
-    font-size: 1.2em;
-    margin: 0 auto 20px;
-    text-align: justify; /* Justify text for readability */
-    
-}
-
-
 /* Navigation Bar */
 .navbar {
     background-color: #9acbbc; /* Same color as the header for consistency */
@@ -83,6 +61,153 @@ body {
 
 .navbar a:hover {
     color: #007acc; /* Hover effect */
+}
+
+
+/* Content overview */
+.overview {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #2d4a41; /* Light gray background */
+}
+
+.overview h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.overview {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.overview p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Call for Papers Section */
+.paper {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.paper h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue for header */
+    margin-bottom: 20px;
+}
+
+.paper p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Timeline Layout */
+.timeline {
+    display: table; /* Table layout for rows and columns */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timeline-row {
+    display: table-row; /* Define each row */
+    border-bottom: 1px solid #ddd; /* Add line between rows */
+}
+
+.timeline-row:last-child {
+    border-bottom: none; /* Remove line for the last row */
+}
+
+.timeline-row .event,
+.timeline-row .date {
+    display: table-cell; /* Define each column */
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #333;
+}
+
+.timeline-row .event {
+    text-align: left; /* Align text to the left for events */
+    font-weight: bold; /* Make event titles bold */
+}
+
+.timeline-row .date {
+    text-align: right; /* Align dates to the right */
+    color: #555; /* Subtle gray for dates */
+}
+
+
+
+/* Program Section */
+.program {
+    padding: 40px 20px;
+    background-color: #ae5a5a;
+    border: 2px solid #ddd; /* Add a border for consistency */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 40px auto; /* Center the section */
+}
+
+.program h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Row Styling */
+.program-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr; /* Time, Photo/Session, Details */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Time Column */
+.time {
+    font-size: 1em;
+    color: #555;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* Photo Column */
+.photo img {
+    width: 50px; /* Set image size */
+    height: 50px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover;
+    margin: 0 auto; /* Center the image in the column */
+}
+
+/* Session Text */
+.session {
+    font-size: 1em;
+    font-weight: bold;
+    color: #003366; /* Dark blue */
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Details Column */
+.details {
+    font-size: 1em;
+    text-align: left;
+}
+
+.details .name {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.details .talk {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
 }
 
 
@@ -182,129 +307,5 @@ body {
 }
 
 
-/* Program Section */
-.program {
-    padding: 40px 20px;
-    background-color: #ae5a5a;
-    border: 2px solid #ddd; /* Add a border for consistency */
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin: 40px auto; /* Center the section */
-}
 
-.program h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-/* Row Styling */
-.program-row {
-    display: grid;
-    grid-template-columns: 1fr 2fr 5fr; /* Time, Photo/Session, Details */
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-}
-
-/* Time Column */
-.time {
-    font-size: 1em;
-    color: #555;
-    text-align: right;
-    padding-right: 20px;
-}
-
-/* Photo Column */
-.photo img {
-    width: 50px; /* Set image size */
-    height: 50px;
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover;
-    margin: 0 auto; /* Center the image in the column */
-}
-
-/* Session Text */
-.session {
-    font-size: 1em;
-    font-weight: bold;
-    color: #003366; /* Dark blue */
-    text-align: left;
-    padding-left: 20px;
-}
-
-/* Details Column */
-.details {
-    font-size: 1em;
-    text-align: left;
-}
-
-.details .name {
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.details .talk {
-    font-style: italic;
-    color: #666;
-    margin-top: 5px;
-}
-
-/* Call for Papers Section */
-.call-for-papers {
-    padding: 40px 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    font-family: Arial, sans-serif;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    margin: 40px auto;
-    max-width: 800px;
-    text-align: center;
-}
-
-.call-for-papers h2 {
-    font-size: 2em;
-    color: #003366; /* Dark blue for header */
-    margin-bottom: 20px;
-}
-
-.call-for-papers p {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 30px;
-    text-align: justify;
-}
-
-/* Timeline Layout */
-.timeline {
-    display: table; /* Table layout for rows and columns */
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.timeline-row {
-    display: table-row; /* Define each row */
-    border-bottom: 1px solid #ddd; /* Add line between rows */
-}
-
-.timeline-row:last-child {
-    border-bottom: none; /* Remove line for the last row */
-}
-
-.timeline-row .event,
-.timeline-row .date {
-    display: table-cell; /* Define each column */
-    padding: 10px 15px;
-    font-size: 1em;
-    color: #333;
-}
-
-.timeline-row .event {
-    text-align: left; /* Align text to the left for events */
-    font-weight: bold; /* Make event titles bold */
-}
-
-.timeline-row .date {
-    text-align: right; /* Align dates to the right */
-    color: #555; /* Subtle gray for dates */
-}
 
