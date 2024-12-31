@@ -37,13 +37,13 @@ body {
 }
 
 .header button:hover {
-    background-color: #3b6978;
+    background-color: #708090;
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #3b6978;
+    background-color: #708090;
     /* Same color as the header for consistency */
     color: black;
     display: flex;
@@ -73,7 +73,7 @@ body {
     width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
-    background-color: #2d4a41;
+    background-color: #7b9394;
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
@@ -81,7 +81,7 @@ body {
 
 .overview h2 {
     font-size: 2em;
-    color: #003366;
+    color: white;
     /* Dark blue for header */
     margin-bottom: 20px;
 }
