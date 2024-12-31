@@ -147,10 +147,8 @@ body {
 .program {
     padding: 40px 20px;
     background-color: #ae5a5a;
-    border: 2px solid #ddd; /* Add a border for consistency */
     text-align: center;
     font-family: Arial, sans-serif;
-    margin: 40px auto; /* Center the section */
 }
 
 .program h2 {
@@ -306,6 +304,37 @@ body {
     border: 1px solid #000000;
 }
 
+
+
+/* Add styles for the contact form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 10px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0056b3;
+}
 
 
 
