@@ -124,55 +124,41 @@ body {
 
 /* Speakers Section */
 .speakers {
-    padding: 400px 20px;
+    padding: 70px 20px;
     text-align: center;
-    background-color: #a75555;
+    background-color: #b8ffe8; /* Light gray background */
 }
 
 .speakers h2 {
     font-size: 2em;
-    text-align: center;
     margin-bottom: 20px;
 }
 
-/* Individual Speaker Box */
 .speaker {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
 }
 
-/* Flexbox Layout for Content */
-.content {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-/* Speaker Image */
-.speaker-img {
-    width: 70px;
-    height: 70px;
+.speaker img {
+    width: 160px; /* Circular photo size */
+    height: 160px;
     border-radius: 50%; /* Makes the image circular */
     border: 3px solid #000000f5;
     object-fit: cover; /* Ensures the image doesn't distort */
 }
 
-/* Speaker Details */
-.details {
-    flex: 1; /* Takes remaining space */
-}
-
-.details p {
+.speaker p {
     margin: 5px 0;
+    font-size: 1em;
 }
 
+/* Home Page Icon */
 .speaker .home-icon {
-    width: 1em;
-    height: auto;
-    vertical-align: middle;
-    border: 1px solid #000000;
+    width: 1em; /* Adjust the width relative to text size */
+    height: auto; /* Maintain the aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+    margin-left: 5px; /* Add spacing between text and icon */
 }
 
 .speaker .google-icon {
@@ -183,13 +169,6 @@ body {
     border: 1px solid #000000;
 }
 
-/* Abstract Section */
-.abstract {
-    flex: 1; /* Takes remaining space */
-    font-size: 0.9em;
-    color: #555;
-    text-align: justify;
-}
 
 /* Program Section */
 .program {
