@@ -37,13 +37,13 @@ body {
 }
 
 .header button:hover {
-    background-color: #708090;
+    background-color: #3b6978;
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #708090;
+    background-color: #3b6978;
     /* Same color as the header for consistency */
     color: black;
     display: flex;
@@ -73,7 +73,7 @@ body {
     width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
-    background-color: #7b9394;
+    background-color: #708090;
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
@@ -95,6 +95,7 @@ body {
 .overview p {
     margin: 5px 0;
     font-size: 1em;
+    color: white;
 }
 
 /* Call for Papers Section */
