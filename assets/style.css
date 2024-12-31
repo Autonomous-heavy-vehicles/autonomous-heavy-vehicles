@@ -37,13 +37,13 @@ body {
 }
 
 .header button:hover {
-    background-color: #e6e6e6;
+    background-color: #84a59d;
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #9acbbc;
+    background-color: #3b6978;
     /* Same color as the header for consistency */
     color: black;
     display: flex;
@@ -70,10 +70,12 @@ body {
 
 /* Content overview */
 .overview {
-    display: inline-block;
+    width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
     background-color: #2d4a41;
+    box-sizing: border-box; /* Ensure padding doesn't exceed the width */
+    margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
 }
 
@@ -99,13 +101,13 @@ body {
 .paper {
     padding: 40px 20px;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #f8f1f1;
     /* Light gray background */
 }
 
 .paper h2 {
     font-size: 2em;
-    color: #003366;
+    color: #f8f1f1;
     /* Dark blue for header */
     margin-bottom: 20px;
 }
@@ -238,7 +240,7 @@ body {
 .organizers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #b8ffe8;
+    background-color: #b8e8e0;
     /* Light gray background */
 }
 
@@ -285,7 +287,7 @@ body {
 .speakers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #b8ffe8;
+    background-color: #f2d7ee;
     /* Light gray background */
     border: 2px solid #ddd;
     /* Optional border for the section */
