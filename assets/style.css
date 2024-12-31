@@ -175,8 +175,6 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     margin-bottom: 30px; /* Gap between this section and the next */
-    border-bottom: 5px solid white; /* Separator line */
-    overflow: hidden; /* Ensure the background ends with the content */
 }
 
 .program h2 {
@@ -194,6 +192,13 @@ body {
     padding: 10px 0;
     margin-bottom: 20px; 
     
+}
+
+.paper p {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 /* Time Column */
