@@ -174,7 +174,8 @@ body {
     background-color: #C0C0C0;
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-bottom: 20px; /* Gap between this section and the next */
+    margin-bottom: 30px; /* Gap between this section and the next */
+    border-bottom: 5px solid white; /* Separator line */
 }
 
 .program h2 {
@@ -190,6 +191,8 @@ body {
     align-items: center;
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
+    margin-bottom: 20px; 
+    
 }
 
 /* Time Column */
@@ -248,6 +251,7 @@ body {
     background-color: #d1cdc4;
     /* Light gray background */
     margin-bottom: 20px; /* Gap between this section and the next */
+    border-bottom: 5px solid white; /* Separator line */
 }
 
 .organizers h2 {
@@ -300,6 +304,7 @@ body {
     border-radius: 10px;
     /* Optional rounded corners */
     margin-bottom: 20px; /* Gap between this section and the next */
+    border-bottom: 5px solid white; /* Separator line */
 }
 
 .speakers h2 {
