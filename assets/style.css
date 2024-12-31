@@ -39,17 +39,19 @@ body {
 }
 
 /* Content section */
-.content {
+.Overview {
     padding: 40px 20px;
     text-align: center;
+    background-color: #b8ffe8; /* Light gray background */
 }
 
-.content h2 {
+.Overview h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.content p {
+.Overview p {
+    display: inline-block;
     font-size: 1.2em;
     max-width: 800px;
     margin: 0 auto 20px;
