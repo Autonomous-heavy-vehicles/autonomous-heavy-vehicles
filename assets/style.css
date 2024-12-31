@@ -13,6 +13,7 @@ body {
     text-align: center;
     padding: 100px 20px;
     /* Padding inside the header */
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .header h1 {
@@ -77,6 +78,7 @@ body {
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .overview h2 {
@@ -104,6 +106,7 @@ body {
     text-align: center;
     background-color: #7b9394;
     /* Light gray background */
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .paper h2 {
@@ -115,7 +118,7 @@ body {
 
 .paper p {
     font-size: 1em;
-    color: #555;
+    color: white;
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -146,7 +149,7 @@ body {
     /* Define each column */
     padding: 10px 15px;
     font-size: 1em;
-    color: #333;
+    color: white;
 }
 
 .timeline-row .event {
@@ -171,6 +174,7 @@ body {
     background-color: #C0C0C0;
     text-align: center;
     font-family: Arial, sans-serif;
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .program h2 {
@@ -243,6 +247,7 @@ body {
     text-align: center;
     background-color: #d1cdc4;
     /* Light gray background */
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .organizers h2 {
@@ -294,6 +299,7 @@ body {
     /* Optional border for the section */
     border-radius: 10px;
     /* Optional rounded corners */
+    margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .speakers h2 {
