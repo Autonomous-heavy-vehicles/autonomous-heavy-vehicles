@@ -102,8 +102,8 @@ body {
 }
 
 .organizer img {
-    width: 150px; /* Circular photo size */
-    height: 150px;
+    width: 160px; /* Circular photo size */
+    height: 160px;
     border-radius: 50%; /* Makes the image circular */
     border: 3px solid #000000f5;
     object-fit: cover; /* Ensures the image doesn't distort */
@@ -123,65 +123,64 @@ body {
 }
 
 /* Speakers Section */
-.Speakers {
-    padding: 200px 20px;
-    text-align: center;
-    background-color: #467869; /* Light gray background */
+.speakers {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
 }
 
-.Speakers h2 {
+.speakers h2 {
     font-size: 2em;
+    text-align: center;
     margin-bottom: 20px;
 }
 
-/* Box Styling */
-.box {
-    display: inline-block;
+/* Individual Speaker Box */
+.speaker {
     background-color: white;
-    border: 1px solid #ddd; /* Light border for box */
-    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 20px;
-    margin: 15px;
-    width: 500px; /* Wider box to accommodate image and text */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    text-align: left; /* Align content to the left */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Home Page Icon */
-.Speaker .home-icon {
-    width: 1em; /* Adjust the width relative to text size */
-    height: auto; /* Maintain the aspect ratio */
-    vertical-align: middle; /* Align icon with text */
-    margin-left: 5px; /* Add spacing between text and icon */
-}
-
 
 /* Flexbox Layout for Content */
 .content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    gap: 20px; /* Space between image and text */
+    align-items: flex-start;
+    gap: 20px;
 }
 
-
-.content img {
-    width: 140px;
-    height: 140px;
+/* Speaker Image */
+.speaker-img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    border: 3px solid #000000;
     object-fit: cover;
+    border: 2px solid #003366;
+}
+
+/* Speaker Details */
+.details {
+    flex: 1; /* Takes remaining space */
 }
 
 .details p {
     margin: 5px 0;
-    font-size: 1em;
 }
 
-.details .abstract {
-    margin-top: 10px;
+.home-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/* Abstract Section */
+.abstract {
+    flex: 1; /* Takes remaining space */
     font-size: 0.9em;
-    color: #555; /* Subtle gray for abstracts */
-    text-align: justify; /* Align abstracts for readability */
+    color: #555;
+    text-align: justify;
 }
-
 
