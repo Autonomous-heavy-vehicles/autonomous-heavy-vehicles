@@ -324,9 +324,9 @@ body {
 }
 
 .speaker img {
-    width: 100px;
+    width: 160px;
     /* Circular photo size */
-    height: 100px;
+    height: 160px;
     border-radius: 50%;
     /* Makes the image circular */
     border: 3px solid #000000f5;
