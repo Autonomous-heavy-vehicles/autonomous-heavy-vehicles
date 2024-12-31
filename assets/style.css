@@ -7,10 +7,12 @@ body {
 
 /* Header section */
 .header {
-    background-color: #9acbbc; /* Blue color */
+    background-color: #9acbbc;
+    /* Blue color */
     color: black;
     text-align: center;
-    padding: 100px 20px; /* Padding inside the header */
+    padding: 100px 20px;
+    /* Padding inside the header */
 }
 
 .header h1 {
@@ -41,7 +43,8 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #9acbbc; /* Same color as the header for consistency */
+    background-color: #9acbbc;
+    /* Same color as the header for consistency */
     color: black;
     display: flex;
     justify-content: right;
@@ -60,7 +63,8 @@ body {
 }
 
 .navbar a:hover {
-    color: #007acc; /* Hover effect */
+    color: #007acc;
+    /* Hover effect */
 }
 
 
@@ -68,20 +72,22 @@ body {
 .overview {
     padding: 70px 20px;
     text-align: center;
-    background-color: #2d4a41; /* Light gray background */
+    background-color: #2d4a41;
+    /* Light gray background */
 }
 
 .overview h2 {
     font-size: 2em;
-    color: #003366; /* Dark blue for header */
+    color: #003366;
+    /* Dark blue for header */
     margin-bottom: 20px;
 }
 
-.overview {
+/* .overview {
     display: inline-block;
     margin: 20px;
     text-align: center;
-}
+} */
 
 .overview p {
     margin: 5px 0;
@@ -92,12 +98,14 @@ body {
 .paper {
     padding: 40px 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Light gray background */
+    background-color: #f9f9f9;
+    /* Light gray background */
 }
 
 .paper h2 {
     font-size: 2em;
-    color: #003366; /* Dark blue for header */
+    color: #003366;
+    /* Dark blue for header */
     margin-bottom: 20px;
 }
 
@@ -110,36 +118,45 @@ body {
 
 /* Timeline Layout */
 .timeline {
-    display: table; /* Table layout for rows and columns */
+    display: table;
+    /* Table layout for rows and columns */
     width: 100%;
     border-collapse: collapse;
 }
 
 .timeline-row {
-    display: table-row; /* Define each row */
-    border-bottom: 1px solid #ddd; /* Add line between rows */
+    display: table-row;
+    /* Define each row */
+    border-bottom: 1px solid #ddd;
+    /* Add line between rows */
 }
 
 .timeline-row:last-child {
-    border-bottom: none; /* Remove line for the last row */
+    border-bottom: none;
+    /* Remove line for the last row */
 }
 
 .timeline-row .event,
 .timeline-row .date {
-    display: table-cell; /* Define each column */
+    display: table-cell;
+    /* Define each column */
     padding: 10px 15px;
     font-size: 1em;
     color: #333;
 }
 
 .timeline-row .event {
-    text-align: left; /* Align text to the left for events */
-    font-weight: bold; /* Make event titles bold */
+    text-align: left;
+    /* Align text to the left for events */
+    font-weight: bold;
+    /* Make event titles bold */
 }
 
 .timeline-row .date {
-    text-align: right; /* Align dates to the right */
-    color: #555; /* Subtle gray for dates */
+    text-align: right;
+    /* Align dates to the right */
+    color: #555;
+    /* Subtle gray for dates */
 }
 
 
@@ -160,7 +177,8 @@ body {
 /* Row Styling */
 .program-row {
     display: grid;
-    grid-template-columns: 1fr 2fr 5fr; /* Time, Photo/Session, Details */
+    grid-template-columns: 1fr 2fr 5fr;
+    /* Time, Photo/Session, Details */
     align-items: center;
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
@@ -176,18 +194,22 @@ body {
 
 /* Photo Column */
 .photo img {
-    width: 50px; /* Set image size */
+    width: 50px;
+    /* Set image size */
     height: 50px;
-    border-radius: 50%; /* Make it circular */
+    border-radius: 50%;
+    /* Make it circular */
     object-fit: cover;
-    margin: 0 auto; /* Center the image in the column */
+    margin: 0 auto;
+    /* Center the image in the column */
 }
 
 /* Session Text */
 .session {
     font-size: 1em;
     font-weight: bold;
-    color: #003366; /* Dark blue */
+    color: #003366;
+    /* Dark blue */
     text-align: left;
     padding-left: 20px;
 }
@@ -215,7 +237,8 @@ body {
 .organizers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #b8ffe8; /* Light gray background */
+    background-color: #b8ffe8;
+    /* Light gray background */
 }
 
 .organizers h2 {
@@ -230,11 +253,14 @@ body {
 }
 
 .organizer img {
-    width: 160px; /* Circular photo size */
+    width: 160px;
+    /* Circular photo size */
     height: 160px;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
+    /* Makes the image circular */
     border: 3px solid #000000f5;
-    object-fit: cover; /* Ensures the image doesn't distort */
+    object-fit: cover;
+    /* Ensures the image doesn't distort */
 }
 
 .organizer p {
@@ -244,19 +270,26 @@ body {
 
 /* Home Page Icon */
 .organizer .home-icon {
-    width: 1em; /* Adjust the width relative to text size */
-    height: auto; /* Maintain the aspect ratio */
-    vertical-align: middle; /* Align icon with text */
-    margin-left: 5px; /* Add spacing between text and icon */
+    width: 1em;
+    /* Adjust the width relative to text size */
+    height: auto;
+    /* Maintain the aspect ratio */
+    vertical-align: middle;
+    /* Align icon with text */
+    margin-left: 5px;
+    /* Add spacing between text and icon */
 }
 
 /* Speakers Section */
 .speakers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #b8ffe8; /* Light gray background */
-    border: 2px solid #ddd; /* Optional border for the section */
-    border-radius: 10px; /* Optional rounded corners */
+    background-color: #b8ffe8;
+    /* Light gray background */
+    border: 2px solid #ddd;
+    /* Optional border for the section */
+    border-radius: 10px;
+    /* Optional rounded corners */
 }
 
 .speakers h2 {
@@ -266,22 +299,31 @@ body {
 }
 
 .speaker {
-    display: flex; /* Use flex for image + text alignment */
-    align-items: center; /* Align items vertically */
-    justify-content: flex-start; /* Align content to the left */
+    display: flex;
+    /* Use flex for image + text alignment */
+    align-items: center;
+    /* Align items vertically */
+    justify-content: flex-start;
+    /* Align content to the left */
     margin: 20px auto;
     padding: 10px;
-    max-width: 800px; /* Limit row width */
-    border-bottom: 1px solid #ddd; /* Separator between rows */
+    max-width: 800px;
+    /* Limit row width */
+    border-bottom: 1px solid #ddd;
+    /* Separator between rows */
 }
 
 .speaker img {
-    width: 100px; /* Circular photo size */
+    width: 100px;
+    /* Circular photo size */
     height: 100px;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
+    /* Makes the image circular */
     border: 3px solid #000000f5;
-    margin-right: 20px; /* Space between image and text */
-    object-fit: cover; /* Ensures the image doesn't distort */
+    margin-right: 20px;
+    /* Space between image and text */
+    object-fit: cover;
+    /* Ensures the image doesn't distort */
 }
 
 .speaker p {
@@ -291,10 +333,14 @@ body {
 
 /* Home Page Icon */
 .speaker .home-icon {
-    width: 1em; /* Adjust the width relative to text size */
-    height: auto; /* Maintain the aspect ratio */
-    vertical-align: middle; /* Align icon with text */
-    margin-left: 5px; /* Add spacing between text and icon */
+    width: 1em;
+    /* Adjust the width relative to text size */
+    height: auto;
+    /* Maintain the aspect ratio */
+    vertical-align: middle;
+    /* Align icon with text */
+    margin-left: 5px;
+    /* Add spacing between text and icon */
 }
 
 .speaker .google-icon {
@@ -314,16 +360,20 @@ form {
     display: flex;
     flex-direction: column;
 }
+
 form label {
     margin-top: 10px;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 form button {
     margin-top: 20px;
     padding: 10px;
@@ -333,9 +383,7 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 form button:hover {
     background-color: #0056b3;
 }
-
-
-
