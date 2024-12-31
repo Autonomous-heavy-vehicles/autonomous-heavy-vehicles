@@ -125,7 +125,8 @@ body {
 /* Speakers Section */
 .speakers {
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    text-align: center;
+    background-color: #a75555;
 }
 
 .speakers h2 {
@@ -136,7 +137,7 @@ body {
 
 /* Individual Speaker Box */
 .speaker {
-    background-color: white;
+    background-color: #a75555;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
@@ -153,11 +154,11 @@ body {
 
 /* Speaker Image */
 .speaker-img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #003366;
+    border: 3px solid #000000;
 }
 
 /* Speaker Details */
@@ -174,6 +175,15 @@ body {
     height: 16px;
     vertical-align: middle;
     margin-left: 5px;
+    border: 1px solid #000000;
+}
+
+.google-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid #000000;
 }
 
 /* Abstract Section */
