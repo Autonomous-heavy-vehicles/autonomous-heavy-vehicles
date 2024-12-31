@@ -73,6 +73,7 @@ body {
 
 .overview h2 {
     font-size: 2em;
+    color: #003366; /* Dark blue for header */
     margin-bottom: 20px;
 }
 
