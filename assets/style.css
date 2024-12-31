@@ -171,16 +171,16 @@ body {
 }
 
 .home-icon {
-    width: 16px;
-    height: 16px;
+    width: 1em;
+    height: auto;
     vertical-align: middle;
     margin-left: 5px;
     border: 1px solid #000000;
 }
 
 .google-icon {
-    width: 16px;
-    height: 16px;
+    width: 1em;
+    height: auto;
     vertical-align: middle;
     margin-left: 5px;
     border: 1px solid #000000;
