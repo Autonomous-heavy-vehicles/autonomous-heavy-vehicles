@@ -243,6 +243,12 @@ body {
 }
 
 
+.program-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* Organizers Section */
 .organizers {
