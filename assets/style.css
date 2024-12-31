@@ -114,6 +114,14 @@ body {
     font-size: 1em;
 }
 
+/* Home Page Icon */
+.home-icon {
+    width: 1.2em; /* Adjust the width relative to text size */
+    height: auto; /* Maintain the aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+    margin-left: 5px; /* Add spacing between text and icon */
+}
+
 /* Speakers Section */
 .Speakers {
     padding: 200px 20px;
