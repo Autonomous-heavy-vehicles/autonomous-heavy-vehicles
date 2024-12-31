@@ -102,8 +102,8 @@ body {
 }
 
 .organizer img {
-    width: 140px; /* Circular photo size */
-    height: 140px;
+    width: 150px; /* Circular photo size */
+    height: 150px;
     border-radius: 50%; /* Makes the image circular */
     border: 3px solid #000000f5;
     object-fit: cover; /* Ensures the image doesn't distort */
