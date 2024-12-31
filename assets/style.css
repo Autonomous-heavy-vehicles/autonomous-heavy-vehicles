@@ -147,6 +147,15 @@ body {
     text-align: left; /* Align content to the left */
 }
 
+/* Home Page Icon */
+.Speaker .home-icon {
+    width: 1em; /* Adjust the width relative to text size */
+    height: auto; /* Maintain the aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+    margin-left: 5px; /* Add spacing between text and icon */
+}
+
+
 /* Flexbox Layout for Content */
 .content {
     display: flex;
