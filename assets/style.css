@@ -7,9 +7,9 @@ body {
 
 /* Header section */
 .header {
-    background-color: #9acbbc;
+    background-color: #3b6978;
     /* Blue color */
-    color: black;
+    color: white;
     text-align: center;
     padding: 100px 20px;
     /* Padding inside the header */
@@ -27,7 +27,7 @@ body {
 
 .header button {
     background-color: black;
-    color: #9acbbc;
+    color: #5792a6;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -37,7 +37,7 @@ body {
 }
 
 .header button:hover {
-    background-color: #84a59d;
+    background-color: #3b6978;
 }
 
 
