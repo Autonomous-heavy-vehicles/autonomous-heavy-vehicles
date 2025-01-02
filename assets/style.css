@@ -71,7 +71,7 @@ body {
 
 /* Content overview */
 .overview {
-    width: 100%; /* Ensure the section spans the full width */
+    width: 80%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
     background-color: #708090;
@@ -82,6 +82,8 @@ body {
     margin-bottom: 20px; /* Gap between this section and the next */
     font-family: 'Georgia', serif; /* Use a professional serif font */
     font-size: 1.2em; /* Slightly larger text for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    line-height: 1.8; /* Improve readability with good line spacing */
 }
 
 .overview h2 {
@@ -89,6 +91,7 @@ body {
     color: white;
     /* Dark blue for header */
     margin-bottom: 20px;
+    text-align: center; /* Center the heading */
 }
 
 /* .overview {
