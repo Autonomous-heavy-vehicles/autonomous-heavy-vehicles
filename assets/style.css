@@ -78,7 +78,10 @@ body {
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
+    text-align: justify; 
     margin-bottom: 20px; /* Gap between this section and the next */
+    font-family: 'Georgia', serif; /* Use a professional serif font */
+    font-size: 1.2em; /* Slightly larger text for readability */
 }
 
 .overview h2 {
