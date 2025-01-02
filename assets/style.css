@@ -10,6 +10,7 @@ body {
     background-color: #3b6978;
     /* Blue color */
     color: white;
+    background: url('assets/images/Header_Preview.png')no-repeat center center/cover;
     text-align: center;
     padding: 100px 20px;
     /* Padding inside the header */
@@ -71,7 +72,7 @@ body {
 
 /* Content overview */
 .overview {
-    width: 80%; /* Ensure the section spans the full width */
+    width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
     background-color: #708090;
