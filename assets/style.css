@@ -59,7 +59,7 @@ body {
 .navbar a {
     margin: 0 15px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1em;
 }
@@ -89,7 +89,7 @@ body {
 
 .overview h2 {
     font-size: 2em;
-    color: white;
+    color: black;
     /* Dark blue for header */
     margin-bottom: 20px;
     text-align: center; /* Center the heading */
@@ -104,21 +104,21 @@ body {
 .overview p {
     margin: 5px 0;
     font-size: 1em;
-    color: white;
+    color: black;
 }
 
 /* Call for Papers Section */
 .paper {
     padding: 40px 20px;
     text-align: center;
-    background-color: #7b9394;
+    background-color: #F4E1C1;
     /* Light gray background */
     margin-bottom: 20px; /* Gap between this section and the next */
 }
 
 .paper h2 {
     font-size: 2em;
-    color: #f8f1f1;
+    color: black;
     /* Dark blue for header */
     margin-bottom: 20px;
 }
@@ -262,7 +262,7 @@ body {
 .organizers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #d1cdc4;
+    background-color: #F4E1C1;
     /* Light gray background */
     margin-bottom: 20px; /* Gap between this section and the next */
     border-bottom: 5px solid white; /* Separator line */
@@ -311,7 +311,7 @@ body {
 .speakers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #E5E4E2;
+    background-color: #F4E1C1;
     /* Light gray background */
     border: 2px solid #ddd;
     /* Optional border for the section */
@@ -338,7 +338,7 @@ body {
     padding: 10px;
     max-width: 800px;
     /* Limit row width */
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #F4E1C1;
     /* Separator between rows */
 }
 
