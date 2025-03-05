@@ -141,7 +141,7 @@ body {
 .timeline-row {
     display: table-row;
     /* Define each row */
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #F4E1C1;
     /* Add line between rows */
 }
 
