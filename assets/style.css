@@ -7,9 +7,9 @@ body {
 
 /* Header section */
 .header {
-    background-color: #3b6978;
+    background-color: #F4E1C1;
     /* Blue color */
-    color: white;
+    color: black;
     /* background: url('assets/header.png')no-repeat center center/cover; */
     text-align: center;
     padding: 100px 20px;
@@ -29,7 +29,7 @@ body {
 
 .header button {
     background-color: black;
-    color: #5792a6;
+    color: #ba610e;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -39,13 +39,13 @@ body {
 }
 
 .header button:hover {
-    background-color: #3b6978;
+    background-color: #F4E1C1;
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #3b6978;
+    background-color: #F4E1C1;
     /* Same color as the header for consistency */
     color: black;
     display: flex;
@@ -75,7 +75,7 @@ body {
     width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
-    background-color: #708090;
+    background-color: #F4E1C1;
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
