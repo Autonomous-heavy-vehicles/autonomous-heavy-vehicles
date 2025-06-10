@@ -7,7 +7,7 @@ body {
 
 /* Header section */
 .header {
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     /* Blue color */
     color: black;
     /* background: url('assets/header.png')no-repeat center center/cover; */
@@ -39,13 +39,13 @@ body {
 }
 
 .header button:hover {
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     /* Same color as the header for consistency */
     color: black;
     display: flex;
@@ -75,7 +75,7 @@ body {
     width: 100%; /* Ensure the section spans the full width */
     padding: 70px 20px;
     text-align: center;
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     box-sizing: border-box; /* Ensure padding doesn't exceed the width */
     margin: 0; /* Remove any unexpected margins */
     /* Light gray background */
@@ -111,7 +111,7 @@ body {
 .paper {
     padding: 40px 20px;
     text-align: center;
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     /* Light gray background */
     margin-bottom: 20px; /* Gap between this section and the next */
 }
@@ -141,7 +141,7 @@ body {
 .timeline-row {
     display: table-row;
     /* Define each row */
-    border-bottom: 1px solid #F4E1C1;
+    border-bottom: 1px solid #f3ebeb;
     /* Add line between rows */
 }
 
@@ -178,7 +178,7 @@ body {
 /* Program Section */
 .program {
     padding: 40px 20px;
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     text-align: center;
     font-family: Arial, sans-serif;
     margin-bottom: 30px; /* Gap between this section and the next */
@@ -262,7 +262,7 @@ body {
 .organizers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     /* Light gray background */
     margin-bottom: 20px; /* Gap between this section and the next */
     border-bottom: 5px solid white; /* Separator line */
@@ -311,7 +311,7 @@ body {
 .speakers {
     padding: 70px 20px;
     text-align: center;
-    background-color: #F4E1C1;
+    background-color: #f3ebeb;
     /* Light gray background */
     border: 2px solid #ddd;
     /* Optional border for the section */
@@ -338,7 +338,7 @@ body {
     padding: 10px;
     max-width: 800px;
     /* Limit row width */
-    border-bottom: 1px solid #F4E1C1;
+    border-bottom: 1px solid #f3ebeb;
     /* Separator between rows */
 }
 
