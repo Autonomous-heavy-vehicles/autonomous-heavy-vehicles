@@ -213,9 +213,9 @@ body {
 
 /* Photo Column */
 .photo img {
-    width: 70px;
+    width: 100px;
     /* Set image size */
-    height: 70px;
+    height: 100px;
     border-radius: 50%;
     /* Make it circular */
     object-fit: cover;
