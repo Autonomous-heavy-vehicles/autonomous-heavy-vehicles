@@ -261,7 +261,9 @@ body {
 .program-row .session {
   align-self: start;     /* prevent vertical centering from hiding text */
   text-align: left;
-  padding-left: 20px;
+  justify-self: start;      /* Align to left grid boundary */
+  padding-left: 0.0;
+  background-color: transparent; /* Prevent background mismatch */
   color: #003366;
   font-weight: bold;
   line-height: 1.4;
