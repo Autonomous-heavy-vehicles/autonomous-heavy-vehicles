@@ -250,6 +250,10 @@ body {
     margin-top: 5px;
 }
 
+.program-row {
+    background-color: #ffffff; /* make all rows white */
+    border-bottom: 1px solid #ddd; /* optional subtle divider line */
+}
 
 .program-row::after {
     content: "";
