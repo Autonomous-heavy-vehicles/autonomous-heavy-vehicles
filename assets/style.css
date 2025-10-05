@@ -250,6 +250,26 @@ body {
     margin-top: 5px;
 }
 
+.papers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.paper strong {
+  display: block;
+  font-size: 1em;
+}
+
+.paper em {
+  display: block;
+  color: #444;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+
 
 .program-row::after {
     content: "";
