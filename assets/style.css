@@ -251,23 +251,27 @@ body {
 }
 
 .papers {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 2;
+  margin-top: 10px;
 }
 
-.paper strong {
-  display: block;
-  font-size: 1em;
+.papers .paper {
+  margin-bottom: 10px;
+  text-align: left;
 }
 
-.paper em {
+.papers .paper strong {
   display: block;
-  color: #444;
+  font-weight: bold;
+  color: #000;
+}
+
+.papers .paper em {
+  display: block;
   font-style: italic;
-  font-size: 0.95em;
+  color: #444;
+  margin-top: 2px;
 }
+
 
 
 
