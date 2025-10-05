@@ -250,9 +250,16 @@ body {
     margin-top: 5px;
 }
 
+
 .program-row {
     background-color: #ffffff; /* make all rows white */
     border-bottom: 1px solid #ddd; /* optional subtle divider line */
+}
+
+.program-row .session,
+.program-row .subsession,
+.program-row .details {
+    background-color: inherit;
 }
 
 .program-row::after {
