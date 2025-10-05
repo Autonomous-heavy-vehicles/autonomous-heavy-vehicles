@@ -250,30 +250,6 @@ body {
     margin-top: 5px;
 }
 
-.papers {
-  margin-top: 10px;
-}
-
-.papers .paper {
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.papers .paper strong {
-  display: block;
-  font-weight: bold;
-  color: #000;
-}
-
-.papers .paper em {
-  display: block;
-  font-style: italic;
-  color: #444;
-  margin-top: 2px;
-}
-
-
-
 
 .program-row::after {
     content: "";
