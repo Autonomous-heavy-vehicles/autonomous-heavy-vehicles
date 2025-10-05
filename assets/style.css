@@ -270,11 +270,11 @@ body {
 
 /* === FIX for spotlight session layout === */
 .program-row .session {
-  align-self: start;     /* prevent vertical centering from hiding text */
+  /* align-self: start;     prevent vertical centering from hiding text */
   text-align: left;
   justify-self: start;      /* Align to left grid boundary */
   padding-left: 0.0;
-  background-color: transparent; /* Prevent background mismatch */
+  /* background-color: transparent; Prevent background mismatch */
   color: #003366;
   font-weight: bold;
   line-height: 1.4;
@@ -285,6 +285,7 @@ body {
   margin-left: 10px;
   font-weight: normal;   /* reset bold text inside */
   color: #000;
+  background-color: #ffffff; /* make all rows white */
 }
 
 .subsession .paper {
